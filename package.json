@@ -2,21 +2,36 @@
   "author": "Evan Tahler <evantahler@gmail.com>",
   "name": "elasticdump",
   "description": "import and export tools for elasticsearch",
-  "version": "0.13.1",
+  "version": "2.4.2",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/taskrabbit/elasticsearch-dump.git"
   },
   "main": "elasticdump.js",
-  "keywords": ["elasticsearch", "dump", "elasticdump", "import", "export", "transfer", "migrate", "migartion"],
+  "keywords": [
+    "elasticsearch",
+    "dump",
+    "elasticdump",
+    "import",
+    "export",
+    "transfer",
+    "migrate",
+    "migartion",
+    "elasitic",
+    "cluster",
+    "elastic-dump",
+    "elastic dump"
+  ],
   "engines": {
-    "node": ">=0.9.0"
+    "node": ">=4.0.0"
   },
   "dependencies": {
+    "JSONStream": "1.1.x",
+    "async": "2.0.1",
+    "aws4": "^1.4.1",
     "optimist": "latest",
-    "request": "2.x.x",
-    "JSONStream": "0.9.x",
-    "line-reader": "0.2.x"
+    "request": "2.x.x"
   },
   "devDependencies": {
     "mocha": "latest",
